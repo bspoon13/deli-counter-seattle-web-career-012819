@@ -5,7 +5,7 @@ def line(katz_deli)
       numberedLine << " #{i + 1}. #{name}"
     end
     stringLine = numberedLine.join(" ")
-    puts "The line is currently:#{numberedLine}"
+    puts "The line is currently:#{stringLine}"
   else
     puts "The line is currently empty."
   end
