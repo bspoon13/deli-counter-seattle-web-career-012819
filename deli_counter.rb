@@ -4,7 +4,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, i|
       numberedLine << " #{i + 1}. #{name}"
     end
-    stringLine = numberedLine.join(" ")
+    stringLine = numberedLine.join("")
     puts "The line is currently:#{stringLine}"
   else
     puts "The line is currently empty."
